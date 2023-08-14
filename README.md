@@ -7,25 +7,36 @@ This project delves into the exploration and modeling of the Boston Housing data
 Overall Statistics:
 
 RMSE: 4.735998462783738: This is the Root Mean Squared Error, a measure of the average error made by the model in predicting the dependent variable. A lower RMSE suggests a better fit to the data.
+
 R-squared: 0.734: R-squared is the proportion of the variance in the dependent variable that is predictable from the independent variables. This means approximately 73.4% of the variability in MEDV is explained by the predictors in the model. This is relatively high, indicating a good fit.
+
 Adj. R-squared: 0.728: This is the adjusted R-squared which accounts for the number of predictors in the model. It's slightly lower than the R-squared, but still relatively high.
+
 F-statistic & Prob (F-statistic): These values test the overall significance of the regression model. The low Prob (F-statistic) (close to zero) suggests that the regression model predicts the dependent variable better than if we'd used the mean of the dependent variable.
 Coefficients Table:
 
 coef: These are the estimated coefficients for each predictor. For example, holding all other predictors constant, a one-unit increase in RM is associated with an increase of 3.6581 in MEDV.
+
 std err: Standard error of the coefficient estimates. This provides a measure of the precision of the coefficient estimates.
+
 t: The t-statistic is a ratio of the departure of the estimated value of a parameter from its hypothesized value to its standard error.
+
 P>|t|: The p-value associated with each predictor tests the null hypothesis that the predictor's coefficient is zero (no effect). A low p-value (< 0.05) indicates that you can reject the null hypothesis.
+
 [0.025 0.975]: These are the 95% confidence intervals for the coefficients. If the range includes zero, then that predictor is not statistically significant at the 5% level.
+
 Other Statistics:
 
 Omnibus & Prob(Omnibus): A test of the skewness and kurtosis of the residual (errors). A significant result suggests the residuals may not be normally distributed, which is an assumption of OLS.
+
 Durbin-Watson: Tests for homoscedasticity. Values between 1 and 2 suggest that there is no auto-correlation in the residuals.
 Jarque-Bera (JB) & Prob(JB): Another test of the normality of the residuals. A significant result indicates the residuals are not normally distributed.
+
 Cond. No.: This provides an indication of multicollinearity in the data. The note suggests there might be strong multicollinearity, which could make some of the coefficients unreliable or unstable.
 Interpretation:
 
 Variables like INDUS and AGE have p-values greater than 0.05, suggesting that they might not be significant predictors for MEDV in the presence of other variables.
+
 Variables like RM, NOX, DIS, PTRATIO, and LSTAT (among others) have p-values less than 0.05, making them significant predictors for the model.
 
 ## Histogram or Density Plot of Target Variable (MEDV):
