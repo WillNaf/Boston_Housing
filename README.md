@@ -1,5 +1,5 @@
 # Boston_Housing
-Analyzes a dataset on the housing market in Boston, MA 
+This project delves into the exploration and modeling of the Boston Housing dataset. It employs a combination of statistical analysis, regression modeling, and decision tree classification to extract insights and make predictions on the median house value (MEDV).
 
 ## OLSE Milti-linear regression 
 <img width="677" alt="Screenshot 2023-08-14 at 3 27 05 PM" src="https://github.com/WillNaf/Boston_Housing/assets/118142412/fdd566a6-84dc-4be2-87b3-83876e4c5adf">
@@ -73,3 +73,5 @@ Helps in understanding which features contribute the most to the model's decisio
 ## Decision Tree Depth vs. Accuracy Plot:
 Helps in understanding how the depth of the tree affects the model's accuracy and avoiding overfitting.
 ![tree_accuracy](https://github.com/WillNaf/Boston_Housing/assets/118142412/2b060623-e80b-4c1c-9273-93b8219ad396)
+
+In essence, this project provides a comprehensive exploration and analysis of the Boston Housing dataset, offering both regression and classification insights. The combination of EDA, regression modeling, and decision tree classification equips stakeholders with a multifaceted understanding of housing variables' relationships and their impact on median house values.
