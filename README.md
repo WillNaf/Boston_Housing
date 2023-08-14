@@ -3,6 +3,7 @@ Analyzes a dataset on the housing market in Boston, MA
 
 ## OLSE Milti-linear regression 
 <img width="677" alt="Screenshot 2023-08-14 at 3 27 05 PM" src="https://github.com/WillNaf/Boston_Housing/assets/118142412/fdd566a6-84dc-4be2-87b3-83876e4c5adf">
+
 Overall Statistics:
 
 RMSE: 4.735998462783738: This is the Root Mean Squared Error, a measure of the average error made by the model in predicting the dependent variable. A lower RMSE suggests a better fit to the data.
